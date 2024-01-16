@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  all: unset;
+}
+
+.btn {
+  font-family: "Clash Grotesk";
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding: 1rem 2.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(43, 6, 85);
+  color: rgb(234, 234, 234);
+  font-weight: 600;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px hsla(140, 85%, 69%, 0.849);
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(107, 45, 45, 0), rgba(0, 0, 0, 0.4));
+}
+
+.btn:active {
+  scale: 1.92;
+}
+
+.btn:hover {
+  color: rgb(4, 4, 38);
+  background: linear-gradient(to right, #52eec7,#3b927c, #65c7f7,#3b718b, #e6f058,#6d6e2c);
+}
